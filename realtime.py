@@ -4,6 +4,7 @@ import streamlit as st # for web application
 import numpy as np # for mathematical calculations
 import time # for time loop
 import pandas as pd # for dataframe
+import plotly
 import plotly.express as px # for interactive charts
 import pickle
 from xgboost import XGBRegressor
