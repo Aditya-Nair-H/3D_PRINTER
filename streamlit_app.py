@@ -12,8 +12,8 @@ def init_connection():
 conn = init_connection()
 
 # Perform query.
-# Uses st.experimental_memo to only rerun when the query changes or after 10 min.
-@st.experimental_memo(ttl=600)
+# Uses st.experimental_memo to only rerun when the query changes or after 1 min.
+@st.experimental_memo(ttl=60)
 def run_query(query):
     with conn.cursor() as cur:
         cur.execute(query)
