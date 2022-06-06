@@ -3,6 +3,7 @@ numpy
 pandas
 time
 plotly
+plotly.express
 pickle
 mysql.connector
 tkinter
