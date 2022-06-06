@@ -1,5 +1,5 @@
 # importing the libraries
-from Tkinter.font import names
+#from tkinter.font import names
 import streamlit as st # for web application
 import numpy as np # for mathematical calculations
 import time # for time loop
